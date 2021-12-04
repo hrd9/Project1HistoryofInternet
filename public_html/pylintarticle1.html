@@ -65,9 +65,25 @@
                       margin-left: auto;
                       margin-right: auto;
                       width:90%;
-                  } table, th, td {
+                      margin-bottom: -5rem;
+                  }
+        .image3
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:90%;
+        } table, th, td {
                                           border:1px solid black;
                                       }
+        .imagelogo{
+            width: 120px;
+        }
+        .imagew3{
+            width: 70px;
+        } .imagew4{
+                      width: 40px;
+                  }
     </style>
     <title>Python Article 1 : Pylint</title>
 </head>
@@ -103,7 +119,7 @@
             <div class="site-logo">
                 <div class="logo">
 
-                    <img src='Images/finallogo.PNG' alt="Internet connecting the world" width="120">
+                    <img src='Images/finallogo.PNG' alt="Internet connecting the world" class="imagelogo">
 
                     <span class="text-primary">Pylint</span>
                 </div>
@@ -153,8 +169,8 @@
 
 <article class="all-browsers">
     <article class="browser">
-        <img src="Images/Pylint.png" class="image" alt="Image">
         <h2 style="font-size:30px;"><u>Pylint Article</u></h2>
+        <img src="Images/Pylint.png" class="image" alt="Image">
         <p class="p1">
             The tool that checks for error in the python code and one that tries to enforce standards for coding is known as pylint. It checks for the certain type of error, also is suggests the steps that should be taken into consideration for resolving those errors.It’s highly configurable, having special pragmas to control its errors and warnings from within your code, as well as from an extensive configuration file. It is also possible to write your own plugins for adding your own checks or for extending pylint in one way or another.
         </p>
@@ -167,18 +183,16 @@
             <br>
             1)Installation for python packages --
              Command : pip install pylint
-            <img src="Images/Capturet.png"  alt="Image" class="image"> <br>
-            The pylint command needs to be run in the command line, the usage is as follows : <br>
-            <u>Command:</u>
-            pylint [options] modules or packages.<br> For Example:  1) pylint projectcalc/additioncalc_project.py <br>
-            2)pylint projectcalc/subtractioncalc_project.py <br>
-            3)pylint projectcalc/multiplicationcalc_project.py
-            <img src="Images/SS1.png" alt="Image" class="image1">
+             <img src="Images/Capturet.png"  alt="Image" class="image">
+            <br>2)The pylint command needs to be run in the command line, the usage is as follows :
+            <br><u>Command:</u>pylint [options] modules or packages.
+            <br> For Example: pylint projectcalc/additioncalc_project.py, pylint projectcalc/subtractioncalc_project.py, 3)pylint projectcalc/multiplicationcalc_project.py
+             <img src="Images/SS1.png" alt="Image" class="image1">
         3)Parallel Execution --
         In order to speed up the execution of the pylint. This functionality is used via the -j command.If the provided number is 0, then the total number of CPUs will be autodetect and used.<br>
         <u>Command:</u>
         Eg: pylint -j 4 mymodule1.py mymodule2.py mymodule3.py mymodule4.py
-            <img src="Images/Capture3.png" alt="Image" class="image1">
+            <img src="Images/Capture3.png" alt="Image" class="image3">
             <br>
         4) Exit Codes --
         Pylint returns bit-encoded exit codes. If applicable, the table below lists the related stderr stream message output.
@@ -290,9 +304,9 @@
 
     <p style="color: wheat;display: block; margin: auto;">© 2021 Copyright: Harsh Rajesh Damania</p>
     <h4  style="color: wheat;display: block; margin: auto;">Connecting the World Digitally !</h4>
-    <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
-    <img src="Images/w3c.png" alt="w3c" width="70"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject1historyofinternetharshronaknikita.eastus.azurecontainer.io%2Findex.html" style="color: navajowhite">W3C Validator</a>
-
+    <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/hrd9/pythonProject2/tree/Branch1PylintRepository" style="color: navajowhite"> GitHub</a>
+    <img src="Images/w3c.png" alt="w3c" class="imagew3"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject1historyofinternetharshronaknikita.eastus.azurecontainer.io%2Findex.html" style="color: navajowhite">W3C Validator</a>
+    <img src="Images/LinkedIn_logo_initials.png" alt="Linkedin" class="imagew4"><a href="https://www.linkedin.com/in/harsh-damania-13653b133" style="color: navajowhite">Linkedin</a>
 </div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
