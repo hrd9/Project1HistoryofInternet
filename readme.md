@@ -6,7 +6,7 @@ This git repository has four branches poiniting to the individual calculator cod
 The master branch has the basic calculator program running with the full pylint coverage.
 
 #Azure Website Link for the Project :
-[project1historyofinternetharshronaknikita](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
+(http://harshd9pythonarticles.eastus.azurecontainer.io/pythonarticles.html)
 
 #Project 2 Branch Link :
 https://github.com/hrd9/Project1HistoryofInternet/tree/Project2PythonArticles
